@@ -27,35 +27,6 @@ div.col_2 {
   text-align: left;
 }
 
-/*HOURS CONTAINER STYLING====================================================*/
-
-div#hours_container {
-  display: block;
-  border-bottom: 1px solid silver;
-}
-
-i.fa.fa-clock-o {
-  float: right;
-}
-
-div#hours_container > p {
-  margin: 0.5em;
-}
-
-span.time {
- float: right;
-}
-
-/*INFO CONTAINER STYLING====================================================*/
-
-div#info_container {
-  display: block;
-  border-bottom: 1px solid silver;
-}
-
-i.fa.fa-map-marker {
-  float: right;
-}
 
 /*MOBILE QUERY===================================================================*/
 

@@ -1,0 +1,10 @@
+/*INFO CONTAINER STYLING====================================================*/
+
+div#info_container {
+  display: block;
+  border-bottom: 1px solid silver;
+}
+
+i.fa.fa-map-marker {
+  float: right;
+}
