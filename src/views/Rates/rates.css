@@ -20,3 +20,12 @@ span.price {
 p#last_p {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 980px){
+  div#rates_wrapper {
+    width: 95%;
+  }
+  p#last_p {
+    margin-bottom: 20px;
+  }
+}
