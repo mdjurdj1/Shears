@@ -14,42 +14,42 @@ class Gallery extends Component {
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_2.jpg')} alt="Style_2" style={{width:180, height:165}} />
+                <img src={require('../../images/img_2.jpg')} alt="Style_2" style={{width:140, height:135}} />
               <div className="desc">Stylist: Aida</div>
             </div>
           </div>
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_1.jpg')} alt="Style_1" style={{width:180, height:165}} />
+                <img src={require('../../images/img_1.jpg')} alt="Style_1" style={{width:140, height:135}} />
               <div className="desc">Stylist: George</div>
             </div>
           </div>
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_6.jpeg')} alt="Style_3" style={{width:180, height:165}} />
+                <img src={require('../../images/img_6.jpeg')} alt="Style_3" style={{width:140, height:135}} />
               <div className="desc">Stylist: Nathalie</div>
             </div>
           </div>
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_7.jpg')} alt="Style_4" style={{width:180, height:220}} />
+                <img src={require('../../images/img_7.jpg')} alt="Style_4" style={{width:140, height:175}} />
               <div className="desc">Stylist: George</div>
             </div>
           </div>
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_3.jpeg')} alt="Northern Lights" style={{width:180, height:220}} />
+                <img src={require('../../images/img_3.jpeg')} alt="Northern Lights" style={{width:140, height:175}} />
               <div className="desc">Stylist: Hannah</div>
             </div>
           </div>
 
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_5.jpeg')} alt="Mountains" style={{width:180, height:220}} />
+                <img src={require('../../images/img_5.jpeg')} alt="Mountains" style={{width:140, height:175}} />
               <div className="desc">Stylist: Alexis</div>
             </div>
           </div>

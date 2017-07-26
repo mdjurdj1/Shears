@@ -1,5 +1,5 @@
 div#gallery_wrapper {
-  width: 60%;
+  width: 57%;
   margin: auto;
   padding-bottom: 5em;
   border-bottom: 1px solid silver;
@@ -9,13 +9,15 @@ div#gallery_wrapper {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     float: left;
-    width: 180px;
+    width: 140px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #777;
 }
 
 div.gallery img {
