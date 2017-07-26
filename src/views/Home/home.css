@@ -53,6 +53,9 @@ div#info_container {
   border-bottom: 1px solid silver;
 }
 
+i.fa.fa-map-marker {
+  float: right;
+}
 
 /*MOBILE QUERY===================================================================*/
 
