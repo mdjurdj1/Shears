@@ -7,7 +7,7 @@ const Navbar = () => (
   <nav id="navbar">
     <ul>
       <li><NavLink to="/home" activeClassName="selected">Home</NavLink></li>
-      <li><NavLink to="/news" activeClassName="selected">Rates</NavLink></li>
+      <li><NavLink to="/rates" activeClassName="selected">Rates</NavLink></li>
       <li><NavLink to="/contact" activeClassName="selected">Gallery</NavLink></li>
       <li><NavLink to="/prices" activeClassName="selected">Products</NavLink></li>
       <li><NavLink to="/prices" activeClassName="selected">Contact</NavLink></li>

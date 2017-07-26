@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './views/Home'
+import Rates from './views/Rates'
 import Navbar from './components/Navbar'
 import './App.css';
 
@@ -24,7 +25,7 @@ const App = () => (
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/home" component={Home} />
-              <Route path="/skills" component={Home} />
+              <Route path="/rates" component={Rates} />
               <Route path="/work" component={Home} />
               <Route path="/contact" component={Home} />
             </Switch>

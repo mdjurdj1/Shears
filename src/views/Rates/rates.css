@@ -1,0 +1,17 @@
+div#rates_wrapper {
+  width: 55%;
+  margin: auto;
+  padding-bottom: 5em;
+  border-bottom: 1px solid silver;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+p.service {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+span.price {
+  float: right;
+}
