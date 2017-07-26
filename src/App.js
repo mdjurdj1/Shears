@@ -17,9 +17,6 @@ const App = () => (
             <h2>Independant Hair Designers</h2>
             <hr />
           </div>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
 
           <Navbar />
           <Switch>
