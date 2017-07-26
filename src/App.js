@@ -16,6 +16,7 @@ const App = () => (
             <h1>Shears</h1>
             <h2>Independant Hair Designers</h2>
             <hr />
+            <button>Make an online appointment</button>
           </div>
 
           <Navbar />

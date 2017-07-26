@@ -7,6 +7,7 @@ div#home_wrapper {
 
 div.col_1 {
   text-align: left;
+  font-family: 'Lato', sans-serif;
   position: relative;
   width: 50%;
   padding-right: 3em;
