@@ -11,3 +11,10 @@
 .App-intro {
   font-size: large;
 }
+
+div#content_wrapper {
+  width: 100%;
+  opacity: 0.6;
+  background-color: grey;
+  padding: 1em 0 1em 0;
+}

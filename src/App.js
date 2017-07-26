@@ -19,14 +19,15 @@ const App = () => (
           </div>
 
           <Navbar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={Home} />
-            <Route path="/skills" component={Home} />
-            <Route path="/work" component={Home} />
-            <Route path="/contact" component={Home} />
-          </Switch>
-
+          <div id="content_wrapper">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={Home} />
+              <Route path="/skills" component={Home} />
+              <Route path="/work" component={Home} />
+              <Route path="/contact" component={Home} />
+            </Switch>
+          </div>
         </div>
       </Router>
   )
