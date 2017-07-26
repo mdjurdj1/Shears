@@ -1,19 +1,40 @@
 div#home_wrapper {
   width: 55%;
   margin: auto;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   border-bottom: 1px solid silver;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
 }
 
 div.col_1 {
   text-align: left;
-  font-family: 'Lato', sans-serif;
   position: relative;
   width: 50%;
   padding-right: 3em;
   border-right: 1px solid silver;
+  float: left;
 }
 
+/*COL_2 STYLING============================================================*/
+
+div.col_2 {
+  width: 35%;
+  float: left;
+  margin-left: 2em;
+  border-bottom: 1px solid silver;
+  text-align: left;
+}
+
+div.col_2 > p {
+  margin: 0.5em;
+}
+
+span.time {
+ float: right;
+}
+
+/*MOBILE QUERY===================================================================*/
 
 @media screen and (max-width: 600px){
   div.col_1 {
