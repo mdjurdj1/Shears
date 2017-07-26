@@ -7,6 +7,8 @@ div#home_wrapper {
   font-family: 'Lato', sans-serif;
 }
 
+/*COL_1 STYLING============================================================*/
+
 div.col_1 {
   text-align: left;
   position: relative;
@@ -22,17 +24,31 @@ div.col_2 {
   width: 35%;
   float: left;
   margin-left: 2em;
-  border-bottom: 1px solid silver;
   text-align: left;
 }
 
-div.col_2 > p {
+/*HOURS CONTAINER STYLING====================================================*/
+
+div#hours_container {
+  display: block;
+  border-bottom: 1px solid silver;
+}
+
+div#hours_container > p {
   margin: 0.5em;
 }
 
 span.time {
  float: right;
 }
+
+/*INFO CONTAINER STYLING====================================================*/
+
+div#info_container {
+  display: block;
+  border-bottom: 1px solid silver;
+}
+
 
 /*MOBILE QUERY===================================================================*/
 
