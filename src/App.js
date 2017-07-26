@@ -14,7 +14,7 @@ const App = () => (
       <Router>
         <div className="App">
           <div className="App-header">
-            <h1>Shears</h1>
+            <h1><span className="pink">S</span>hear<span className="pink">s</span></h1>
             <h2>Salon & Designs</h2>
             <hr />
             <button>Make an online appointment</button>
