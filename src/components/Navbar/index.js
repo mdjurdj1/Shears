@@ -7,9 +7,10 @@ const Navbar = () => (
   <nav id="navbar">
     <ul>
       <li><NavLink to="/home" activeClassName="selected">Home</NavLink></li>
-      <li><NavLink to="/news" activeClassName="selected">News</NavLink></li>
-      <li><NavLink to="/contact" activeClassName="selected">Contact</NavLink></li>
-      <li><NavLink to="/prices" activeClassName="selected">About</NavLink></li>
+      <li><NavLink to="/news" activeClassName="selected">Rates</NavLink></li>
+      <li><NavLink to="/contact" activeClassName="selected">Gallery</NavLink></li>
+      <li><NavLink to="/prices" activeClassName="selected">Products</NavLink></li>
+      <li><NavLink to="/prices" activeClassName="selected">Contact</NavLink></li>
     </ul>
   </nav>
 )

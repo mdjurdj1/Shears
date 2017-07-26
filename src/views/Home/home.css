@@ -12,7 +12,7 @@ div#home_wrapper {
 div.col_1 {
   text-align: left;
   position: relative;
-  width: 50%;
+  width: 60%;
   padding-right: 3em;
   border-right: 1px solid silver;
   float: left;
@@ -21,7 +21,7 @@ div.col_1 {
 /*COL_2 STYLING============================================================*/
 
 div.col_2 {
-  width: 35%;
+  width: 31%;
   float: left;
   margin-left: 2em;
   text-align: left;
