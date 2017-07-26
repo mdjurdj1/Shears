@@ -1,0 +1,36 @@
+nav#navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+nav#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav#navbar li {
+    float: left;
+}
+
+nav#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav#navbar li a:hover:not(.selected) {
+    background-color: red
+}
+
+.selected {
+    background-color: red;
+}
+
+@media screen and (max-width: 600px){
+    nav#navbar ul li {float: none;}
+}

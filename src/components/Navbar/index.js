@@ -1,9 +1,16 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import './navbar.css'
 
 const Navbar = () => (
-  <div>
-  <h1>NAVBAR</h1>
-  </div>
+  <nav id="navbar">
+    <ul>
+      <li><NavLink to="/home" activeClassName="selected">Home</NavLink></li>
+      <li><NavLink to="/news" activeClassName="selected">News</NavLink></li>
+      <li><NavLink to="/contact" activeClassName="selected">Contact</NavLink></li>
+      <li><NavLink to="/prices" activeClassName="selected">About</NavLink></li>
+    </ul>
+  </nav>
 )
 
 export default Navbar
