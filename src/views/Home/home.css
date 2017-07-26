@@ -1,0 +1,25 @@
+div#home_wrapper {
+  width: 55%;
+  margin: auto;
+  padding-bottom: 2em;
+  border-bottom: 1px solid silver;
+}
+
+div.col_1 {
+  text-align: left;
+  position: relative;
+  width: 50%;
+  padding-right: 3em;
+  border-right: 1px solid silver;
+}
+
+
+@media screen and (max-width: 600px){
+  div.col_1 {
+    width: 90%;
+    display: inline-block;
+    padding-right: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+  }
+}

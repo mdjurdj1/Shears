@@ -28,8 +28,8 @@ nav#navbar li a:hover:not(.selected) {
     color: white
 }
 
-.selected {
-    color: red
+a.selected {
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 @media screen and (max-width: 600px){
