@@ -17,7 +17,7 @@ class Rates extends Component {
           <p className="service"><strong>Nails</strong> <span className="price">$15+</span> <br /> <span className="service_description">Manicures, Pedicures, and Packages available for selection.</span></p>
           <p className="service"><strong>Spa Services</strong> <span className="price">$105+</span> <br /><span className="service_description">Deep Tissue Massages, Aromatherapy, and hydrating Facials to renew your energy.</span></p>
           <p className="service"><strong>Waxing</strong> <span className="price">$25+</span> <br /><span className="service_description">We provide waxing services for face, body, and bikini. French Cirepil wax is used for all services.</span></p>
-          <p> All special requests can be accomodated. Call for more details!</p>
+          <p id="last_p"> All special requests can be accomodated. Call for more details!</p>
          </div>
 
          <div className="col_2">

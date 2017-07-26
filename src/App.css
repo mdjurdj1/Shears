@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  height: 200px;
+  height: 220px;
   padding: 20px;
   color: white;
 }
@@ -19,7 +19,13 @@
 }
 
 span.pink {
-  color: pink
+  color: pink;
+}
+
+button#make_appt {
+  margin-top: 1em;
+  padding: 1em;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-intro {

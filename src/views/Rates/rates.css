@@ -16,3 +16,7 @@ p.service {
 span.price {
   float: right;
 }
+
+p#last_p {
+  margin-bottom: 0;
+}

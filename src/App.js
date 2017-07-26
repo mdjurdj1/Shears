@@ -17,7 +17,7 @@ const App = () => (
             <h1><span className="pink">S</span>hear<span className="pink">s</span></h1>
             <h2>Salon & Designs</h2>
             <hr />
-            <button>Make an online appointment</button>
+            <button id="make_appt">Make an online appointment</button>
           </div>
 
           <Navbar />
