@@ -14,7 +14,7 @@ const Home = () => (
 
      <div className="col_2">
        <div id="hours_container">
-        <h2>Opening Hours</h2>
+        <h2>Opening Hours <i className="fa fa-clock-o" aria-hidden="true"></i></h2>
         <p><span className="weekday">Monday</span>: <span className="time">Closed</span></p>
         <p><span className="weekday">Tuesday</span>: <span className="time">9:00am - 5:30pm</span></p>
         <p><span className="weekday">Wednesday</span>: <span className="time">9:00am - 7:30pm</span></p>
