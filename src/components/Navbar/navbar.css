@@ -30,26 +30,24 @@ nav#navbar li a:hover:not(.selected) {
 
 nav#navbar a.selected {
   color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid pink;
 }
 
 
-a.selected:after{
+/*a.selected:after{
   width: 0;
   height: 0;
   position: relative;
   content:"";
   display:block;
-  /* Ads an arrow effect exploiting the way that browsers join borders together */
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 6px solid #fff;
-  /* centers relative to parent */
   left: 55%;
   bottom: -5px;
-  /* Compensates for width of border (arrow) */
   margin-left: -8px;
 
-}
+}*/
 
 
 @media screen and (max-width: 600px){
