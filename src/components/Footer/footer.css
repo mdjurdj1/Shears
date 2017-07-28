@@ -4,11 +4,20 @@
 }
 
 div#footer_wrapper {
-  padding: 1em;
+  padding: 1.5em 0 1em 0;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   font-size: 12px;
   letter-spacing: 2px;
+}
+
+div.footer_div:last-of-type{
+  margin-top: 9px;
+}
+
+a#link_to_me {
+  color: pink;
+  text-decoration: none;
 }
 
 a#link_to_top {
