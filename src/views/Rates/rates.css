@@ -12,12 +12,25 @@ p.service {
   margin-bottom: 2em;
 }
 
-span.price {
-  float: right;
+p.service_header {
+  font-weight: bold;
 }
 
-p#last_p {
-  margin-bottom: 0;
+p.service_header:after {
+    content: "";
+    position: absolute;
+    width: 20em;
+    margin-top: 8px;
+    border-top: 1px solid black;
+}
+
+span.purp {
+  color: purple
+}
+
+img#bridal_pic {
+  margin-top: 1.8em;
+  border: 1px solid purple;
 }
 
 @media screen and (max-width: 980px){

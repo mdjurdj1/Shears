@@ -11,18 +11,46 @@ class Rates extends Component {
        <div id="rates_wrapper">
         <div className="col_1">
           <h1>Our Rates</h1>
-          <p>Here you will find the rates for our Shears services.</p>
-          <p className="service"><strong>Cuts and Hair Styling</strong> <span className="price">$35+</span> <br /><span className="service_description"> Includes styling, finishing, and product for both Men & Women.</span></p>
-          <p className="service"><strong>Colors & Highlights</strong> <span className="price">$60+</span> <br /> <span className="service_description">Single Process, Highlights, and Gloss - varied selection of colors and treatments!</span></p>
-          <p className="service"><strong>Nails</strong> <span className="price">$15+</span> <br /> <span className="service_description">Manicures, Pedicures, and Packages available for selection.</span></p>
-          <p className="service"><strong>Spa Services</strong> <span className="price">$105+</span> <br /><span className="service_description">Deep Tissue Massages, Aromatherapy, and hydrating Facials to renew your energy.</span></p>
-          <p className="service"><strong>Waxing</strong> <span className="price">$25+</span> <br /><span className="service_description">We provide waxing services for face, body, and bikini. French Cirepil wax is used for all services.</span></p>
-          <p id="last_p"> All special requests can be accomodated. Call for more details!</p>
+          <p className="service"><p className="service_header">HAIR SCULPTING <span className="purp">&</span> SYLING</p>
+            <span className="service_description"> Lady’s Haircuts $40-$100</span> <br />
+            <span className="service_description"> Gentelmens Haircuts $20-$80</span> <br />
+            <span className="service_description"> Childrens Haircuts $20</span> <br /> <br />
+            <span className="service_description"> Hair Braiding $25+</span> <br />
+            <span className="service_description"> Blowout $35+</span> <br />
+            <span className="service_description"> Updo $75+</span> <br />
+            <span className="service_description"> Shears Signature Blowout & Make up Package-Deal $100+</span> <br />
+            <span className="service_description"> Extensions Priced Upon Consultation</span> <br />
+          </p>
+
+          <p className="service"><p className="service_header">HAIR COLORS <span className="purp">&</span> HIGHLIGHTS</p>
+            <span className="service_description"> Single Process $80+</span> <br />
+            <span className="service_description"> Roots Touch Up $50+</span> <br />
+            <span className="service_description"> Double Process $120+</span> <br /> <br />
+            <span className="service_description"> Color Correction - Priced Upon Consultation</span> <br />
+            <span className="service_description"> Color Consultation - Complementary</span> <br />
+          </p>
+
+          <p className="service"><p className="service_header">BRIDAL MAKEUP <span className="purp">&</span> HAIR</p>
+            <span className="service_description"> Makeup Application $150 ($250+ on location)</span> <br />
+            <span className="service_description"> Touch Up Application $65+</span> <br />
+            <span className="service_description"> Bridal Makeup $200 ($400+ on location)</span> <br /> <br />
+            <span className="service_description"> Bridal Hair $200 ($400+ on location)</span> <br />
+            <span className="service_description">*For private bridal parties/events inquiries, please email ShearsNYC@gmail.com for more information.</span> <br />
+          </p>
+
+          <p className="service"><strong>
+            *Prices may vary by stylist <br/>
+            *All services include our signature blow out & finished style <br />
+            *24 hour courtesy cancellation policy <br />
+            *Hair consultation-complementary <br />
+            *Gratuity is cash only <br />
+            Shears gift certificates are now available!<br/>
+            </strong>
+          </p>
          </div>
 
          <div className="col_2">
-          <HoursContainer />
-          <StoreInfoContainer />
+            <img id="bridal_pic" src={require('../../images/long_image.jpg')} alt="Bridal Picture" style={{width:400, height:700}} />
           </div>
        </div>
     )}
