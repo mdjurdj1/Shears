@@ -1,0 +1,18 @@
+div#products_wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+  border-bottom: 1px solid silver;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+div.products_description {
+  margin-bottom: 4em;
+  line-height: 24px;
+}
+
+p.quote {
+  line-height: 30px;
+  font-size: 19px;
+}
