@@ -22,4 +22,8 @@ p.quote {
   div#products_wrapper {
     width: 97%
   }
+  div#products_wrapper img {
+    max-height:300px;
+    max-width: 300px;
+  }
 }
