@@ -9,6 +9,13 @@ const StoreInfoContainer = () => (
    Chatham, NY 12037 <br/>
    (518) 392-3550
    </p>
+   <p>
+    <i className="fa fa-facebook" aria-hidden="true"></i>
+    <i className="fa fa-twitter" aria-hidden="true"></i>
+    <i className="fa fa-youtube" aria-hidden="true"></i>
+    <i className="fa fa-instagram" aria-hidden="true"></i>
+    <i className="fa fa-pinterest-p" aria-hidden="true"></i>
+   </p>
    <NavLink to="/home">View on the Map</NavLink>
   </div>
 )

@@ -1,10 +1,17 @@
 /*INFO CONTAINER STYLING====================================================*/
 
-div#info_container {
-  display: block;
-  border-bottom: 1px solid silver;
-}
-
 i.fa.fa-map-marker {
   float: right;
+}
+
+div#store_info_container p i {
+  font-size: 27px;
+  margin-right: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+div#store_info_container p i:hover {
+  color: #9932CC;
 }
