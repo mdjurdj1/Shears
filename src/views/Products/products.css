@@ -26,4 +26,7 @@ p.quote {
     max-height:300px;
     max-width: 300px;
   }
+  div.products_description {
+    padding-right: 2em;
+  }
 }
