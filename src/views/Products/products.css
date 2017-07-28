@@ -16,3 +16,10 @@ p.quote {
   line-height: 30px;
   font-size: 19px;
 }
+
+
+@media screen and (max-width: 980px){
+  div#products_wrapper {
+    width: 97%
+  }
+}
