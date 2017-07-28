@@ -11,10 +11,10 @@ class Gallery extends Component {
        <div id="gallery_wrapper">
         <div className="col_1">
           <h1>Check out our gallery!</h1>
-
+          <p>Stylist responsible for each look is credited under the photo.</p>
           <div className="responsive">
             <div className="gallery">
-                <img src={require('../../images/img_2.jpg')} alt="Style_2" style={{width:140, height:140}} />
+                <img src={require('../../images/img_9.jpg')} alt="Style_2" style={{width:140, height:140}} />
               <div className="desc">Stylist: Aida</div>
             </div>
           </div>
