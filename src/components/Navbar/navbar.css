@@ -11,6 +11,8 @@ nav#navbar ul {
     display: inline-block;
 }
 
+/*NAVBAR INDIVIDUAL LINK STYLING=====================================================*/
+
 nav#navbar li {
     float: left;
 }
@@ -22,15 +24,29 @@ nav#navbar li a {
     text-align: center;
     margin: 0.9em 3em 0.2em 3em;
     text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 nav#navbar li a:hover:not(.selected) {
-    color: white
+    color: white;
+}
+
+nav#navbar li a:not(.selected):after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid pink;
+  width: 0;
+  -webkit-transition: 0.8s ease;
+        transition: 0.8s ease;
+}
+
+nav#navbar li a:hover:not(.selected):after {
+  width: 100%;
 }
 
 nav#navbar a.selected {
-  color: rgba(255, 255, 255, 1);
-  border-bottom: 1px solid pink;
+  color: pink;
 }
 
 

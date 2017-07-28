@@ -1,10 +1,17 @@
 #footer {
    flex: 0 0 auto;
    margin-top: 3em;
-   border-top: 3px solid white;
 }
 
 div#footer_wrapper {
-  background-color: red;
-  flex-direction: row;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+a#link_to_top {
+  margin-left: 2em;
+  color: purple;
 }
