@@ -34,4 +34,7 @@ img#salon_main:hover {
   img#salon_main {
     max-height: 300px;
   }
+  img#salon_main_2 {
+    max-height: 300px;
+  }
 }
