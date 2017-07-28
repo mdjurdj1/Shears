@@ -7,6 +7,12 @@ div#home_wrapper {
   font-family: 'Lato', sans-serif;
 }
 
+img#salon_main {
+  border: 1px solid black;
+  max-width: 100%;
+  height: auto
+}
+
 
 @media screen and (max-width: 980px){
   div#home_wrapper {
