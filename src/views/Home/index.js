@@ -16,7 +16,10 @@ class Home extends Component {
           <p>We aim to be New York's "one-stop-beauty-shop" by offering a full menu of hair, nail, eyelash, skin, and waxing services while having our most trusted products available for our clients to purchase. </p>
           <p>While internal beauty will always reign supreme, we wholeheartedly believe that when people look better on the outside, they feel better on the inside. If we can improve your quality of life through the services we provide, then we have completed our mission. </p>
           <p>You take care of the inner beauty... leave the rest to us. </p>
-          <img id="salon_main" src={require('../../images/salon_main.jpg')} alt="Style_2" style={{width:600, height:413}} />
+          <div id="home_pics">
+            <img id="salon_main" src={require('../../images/salon_main.jpg')} alt="Style_2" style={{width:600, height:413}} />
+            <img id="salon_main_2" src={require('../../images/salon_main_2.jpg')} alt="Style_2" style={{width:600, height:413}} />
+          </div>
          </div>
 
          <div className="col_2">
