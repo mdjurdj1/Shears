@@ -8,6 +8,7 @@ import {
 import Home from './views/Home'
 import Rates from './views/Rates'
 import Gallery from './views/Gallery'
+import Products from './views/Products'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import './App.css';
@@ -30,7 +31,7 @@ const App = () => (
               <Route path="/home" component={Home} />
               <Route path="/rates" component={Rates} />
               <Route path="/gallery" component={Gallery} />
-              <Route path="/contact" component={Home} />
+              <Route path="/products" component={Products} />
             </Switch>
           </div>
 
