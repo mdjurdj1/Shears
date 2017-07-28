@@ -50,6 +50,7 @@ div#content_wrapper {
   opacity: 0.9;
   background-color: #EFBBCC;
   padding: 1em 0 1em 0;
+  flex: 1 0 auto;
 }
 
 /*COL_1 STYLING============================================================*/

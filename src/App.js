@@ -32,6 +32,7 @@ const App = () => (
               <Route path="/contact" component={Home} />
             </Switch>
           </div>
+
           <Footer />
         </div>
       </Router>
