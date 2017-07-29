@@ -18,6 +18,15 @@
   letter-spacing: 5px;
 }
 
+.App-header > h2 {
+  text-transform: none;
+  font-family: 'Lato', sans-serif;
+  margin: 10px;
+  font-size: 1.4em;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
 span.pink {
   color: pink;
 }
