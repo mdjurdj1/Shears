@@ -50,7 +50,7 @@ class Rates extends Component {
          </div>
 
          <div className="col_2">
-            <img id="bridal_pic" src={require('../../images/long_image.jpg')} alt="Bridal Picture" style={{width:400, height:700}} />
+            <img id="bridal_pic" src={require('../../images/long_pic.jpg')} alt="Bridal Picture" style={{width:280, height:700}} />
           </div>
        </div>
     )}
