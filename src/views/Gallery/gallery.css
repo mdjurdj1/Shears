@@ -9,7 +9,7 @@ div#gallery_wrapper {
 
 div.gallery {
     margin: 5px;
-    border: 2px solid #ccc;
+    border: 1px solid black;
     float: left;
     width: 140px;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -17,7 +17,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-    border: 2px solid #777;
+    border: 1px solid purple;
 }
 
 div.gallery img {

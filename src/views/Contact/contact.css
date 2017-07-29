@@ -1,5 +1,5 @@
 div#contact_wrapper {
-  width: 50%;
+  width: 55%;
   margin: auto;
   padding-bottom: 5em;
   border-bottom: 1px solid silver;
@@ -10,4 +10,10 @@ div#contact_wrapper {
 div#contact_container {
   float: left;
   text-align: left;
+  margin-right: 5em;
+}
+
+div#google_map_container {
+  height: 300px;
+  width: 800px;
 }

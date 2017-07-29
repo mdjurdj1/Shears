@@ -1,9 +1,19 @@
 import React, { Component } from 'react'
+import GettingStartedGoogleMap from '../../components/GoogleMap'
 import './contact.css'
+
+const FaSpinner = () => (
+  <div></div>
+)
 
 class Contact extends Component {
   state = {
-    markers: {}
+    markers:[{
+      position:{
+        lat: 255.0112183,
+        lng:121.52067570000001,
+      }
+    }]
   }
   render() {
     return (
@@ -22,7 +32,23 @@ class Contact extends Component {
         </div>
 
         <div id="google_map_container">
-        </div>
+         <GettingStartedGoogleMap
+           googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.28"
+           loadingElement={
+             <div style={{ height: `100%` }}>
+              <FaSpinner
+                style={{
+                display: `block`,
+                width: `80px`,
+                height: `80px`,
+                margin: `150px auto`,
+                animation: `fa-spin 2s infinite linear`,
+              }} /> </div> }
+           containerElement={ <div style={{ height: `100%` }} /> }
+           mapElement={<div style={{ height: `100%` }} />}
+            markers={this.state.markers} 
+         />
+       </div>,
       </div>
     )
   }
