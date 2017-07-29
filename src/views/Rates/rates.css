@@ -12,11 +12,13 @@ p.service {
   margin-bottom: 2em;
 }
 
-p.service_header {
+span.service_header {
   font-weight: bold;
+  display: block;
+  margin-bottom: 1em;
 }
 
-p.service_header:after {
+span.service_header:after {
     content: "";
     position: absolute;
     width: 20em;
@@ -33,11 +35,25 @@ img#bridal_pic {
   border: 1px solid purple;
 }
 
-@media screen and (max-width: 980px){
+
+/*MEDIA QUERIES==================================================================*/
+@media screen and (max-width: 1400px){
   div#rates_wrapper {
     width: 95%;
   }
+  div#rates_wrapper > .col_1 {
+    padding-right: 5px;
+  }
+  div#rates_wrapper > .col_2 {
+    margin-left: 3px;
+  }
   p#last_p {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  img#bridal_pic {
+    display: none;
   }
 }

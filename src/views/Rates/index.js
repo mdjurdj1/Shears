@@ -11,7 +11,7 @@ class Rates extends Component {
        <div id="rates_wrapper">
         <div className="col_1">
           <h1>Our Rates</h1>
-          <p className="service"><p className="service_header">HAIR SCULPTING <span className="purp">&</span> SYLING</p>
+          <p className="service"><span className="service_header">HAIR SCULPTING <span className="purp">&</span> SYLING</span>
             <span className="service_description"> Lady’s Haircuts $40-$100</span> <br />
             <span className="service_description"> Gentelmens Haircuts $20-$80</span> <br />
             <span className="service_description"> Childrens Haircuts $20</span> <br /> <br />
@@ -22,7 +22,7 @@ class Rates extends Component {
             <span className="service_description"> Extensions Priced Upon Consultation</span> <br />
           </p>
 
-          <p className="service"><p className="service_header">HAIR COLORS <span className="purp">&</span> HIGHLIGHTS</p>
+          <p className="service"><span className="service_header">HAIR COLORS <span className="purp">&</span> HIGHLIGHTS</span>
             <span className="service_description"> Single Process $80+</span> <br />
             <span className="service_description"> Roots Touch Up $50+</span> <br />
             <span className="service_description"> Double Process $120+</span> <br /> <br />
@@ -30,7 +30,7 @@ class Rates extends Component {
             <span className="service_description"> Color Consultation - Complementary</span> <br />
           </p>
 
-          <p className="service"><p className="service_header">BRIDAL MAKEUP <span className="purp">&</span> HAIR</p>
+          <p className="service"><span className="service_header">BRIDAL MAKEUP <span className="purp">&</span> HAIR</span>
             <span className="service_description"> Makeup Application $150 ($250+ on location)</span> <br />
             <span className="service_description"> Touch Up Application $65+</span> <br />
             <span className="service_description"> Bridal Makeup $200 ($400+ on location)</span> <br /> <br />

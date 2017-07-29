@@ -22,20 +22,29 @@ img#salon_main {
   transition: opacity 1s ease-in-out;
 }
 
+img#salon_main_2 {
+  max-width: 100%;
+  height: auto;
+}
+
 img#salon_main:hover {
   opacity:0;
 }
 
-
-@media screen and (max-width: 980px){
+/*MEDIA QUERIES==================================================================*/
+@media screen and (max-width: 1400px){
   div#home_wrapper {
     width: 95%;
   }
+  div#home_pics {
+    margin: 3em 0 3em 0em;
+  }
   img#salon_main {
     max-height: 300px;
-    position: relative;
+    max-width: 500px;
   }
   img#salon_main_2 {
-    display: none;
+    max-height: 300px;
+    max-width: 500px;
   }
 }

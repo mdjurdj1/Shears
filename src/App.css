@@ -95,7 +95,7 @@ div.col_3 {
 
 /*MOBILE QUERY===================================================================*/
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1200px){
   div.col_1 {
     width: 100%;
     display: inline-block;
