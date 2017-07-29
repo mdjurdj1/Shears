@@ -1,0 +1,13 @@
+div#contact_wrapper {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5em;
+  border-bottom: 1px solid silver;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+div#contact_container {
+  float: left;
+  text-align: left;
+}
