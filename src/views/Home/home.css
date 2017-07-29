@@ -33,6 +33,7 @@ img#salon_main:hover {
   }
   img#salon_main {
     max-height: 300px;
+    position: relative;
   }
   img#salon_main_2 {
     display: none;
