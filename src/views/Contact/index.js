@@ -10,8 +10,8 @@ class Contact extends Component {
   state = {
     markers:[{
       position:{
-        lat: 255.0112183,
-        lng:121.52067570000001,
+        lat: 40.741750,
+        lng: -73.980208,
       }
     }]
   }
@@ -46,7 +46,7 @@ class Contact extends Component {
               }} /> </div> }
            containerElement={ <div style={{ height: `100%` }} /> }
            mapElement={<div style={{ height: `100%` }} />}
-            markers={this.state.markers} 
+            markers={this.state.markers}
          />
        </div>,
       </div>

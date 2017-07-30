@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import withScriptjs from "react-google-maps/lib/async/withScriptjs";
 
-const GettingStartedGoogleMap = withScriptjs(withGoogleMap(props => (
+const GettingStartedGoogleMap = withGoogleMap(props => (
   <GoogleMap
     ref={props.onMapLoad}
-    defaultZoom={3}
-    defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
+    defaultZoom={18}
+    defaultCenter={{ lat: 40.741750, lng:  -73.980208 }}
     onClick={props.onMapClick}
   >
   {props.markers.map((marker, index) => (
@@ -17,6 +17,6 @@ const GettingStartedGoogleMap = withScriptjs(withGoogleMap(props => (
     />
   ))}
   </GoogleMap>
-)));
+));
 
 export default GettingStartedGoogleMap
