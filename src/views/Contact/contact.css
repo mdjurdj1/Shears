@@ -1,7 +1,7 @@
 div#contact_wrapper {
   width: 55%;
   margin: auto;
-  margin-bottom: 2.2em;
+  margin-bottom: 3.09em;
   padding: 3em 0 3em 0;
   border-bottom: 1px solid silver;
   overflow: hidden;
@@ -12,12 +12,39 @@ div#contact_wrapper {
 div#contact_container {
   text-align: left;
   margin-right: 5em;
-  font-weight: bold;
 }
 
 div#google_map_container {
   height: 300px;
   width: 60%;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-left: 2em;
+}
+
+span.contact_heading {
+  font-weight: 700;
+
+}
+
+/*MEDIA QUERIES==================================================================*/
+
+@media screen and (max-width: 1300px){
+  div#contact_wrapper {
+    width: 95%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  div#contact_container {
+    text-align: left;
+    margin-right: 0;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+  }
+  div#google_map_container {
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    margin: 2em auto;
+  }
 }

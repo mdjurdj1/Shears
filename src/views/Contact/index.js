@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import GettingStartedGoogleMap from '../../components/GoogleMap'
 import './contact.css'
 
-const FaSpinner = () => (
-  <div></div>
-)
-
 class Contact extends Component {
   state = {
     markers:[{
@@ -19,31 +15,21 @@ class Contact extends Component {
     return (
       <div id="contact_wrapper">
         <div id="contact_container">
-          <p>CALL US:</p>
-          <p>(518) 392-3550 OR (212) 219-3195</p>
-          <p>GENERAL INQUIRIES: <br/>
-            shearsNYC@gmail.com</p>
-          <p>JOIN THE TEAM: <br/>
+          <p><span className="contact_heading">CALL US!</span><br/>
+            <i className="fa fa-mobile" aria-hidden="true"/>  Chatham: (518) 392-3550 <br /> <i className="fa fa-mobile" aria-hidden="true"/>  Manhattan: (212) 219-3195</p>
+          <p><span className="contact_heading">GENERAL INQUIRIES:</span> <br/>
+            <i className="fa fa-envelope-o" aria-hidden="true"/>  shearsNYC@gmail.com</p>
+          <p><span className="contact_heading">JOIN THE TEAM:</span> <br/>
             shearsNYCartists@gmail.com</p>
-          <p>BUSINESS PARTNERSHIP: <br/>
+          <p><span className="contact_heading">BUSINESS PARTNERSHIP:</span> <br/>
             shearsNYCbusiness@gmail.com</p>
-          <p>GIFTCARDS PURCHASE: <br/>
+          <p><span className="contact_heading">GIFTCARDS PURCHASE:</span> <br/>
             shearsNYCgiftcards@gmail.com</p>
         </div>
 
         <div id="google_map_container">
          <GettingStartedGoogleMap
            googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.28"
-           loadingElement={
-             <div style={{ height: `100%` }}>
-              <FaSpinner
-                style={{
-                display: `block`,
-                width: `80px`,
-                height: `80px`,
-                margin: `150px auto`,
-                animation: `fa-spin 2s infinite linear`,
-              }} /> </div> }
            containerElement={ <div style={{ height: `100%` }} /> }
            mapElement={<div style={{ height: `100%` }} />}
             markers={this.state.markers}

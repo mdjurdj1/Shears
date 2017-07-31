@@ -16,7 +16,7 @@ const StoreInfoContainer = () => (
     <i className="fa fa-instagram" aria-hidden="true"></i>
     <i className="fa fa-pinterest-p" aria-hidden="true"></i>
    </p>
-   <NavLink to="/home">View on the Map</NavLink>
+   <NavLink to="/contact">View on the Map</NavLink>
   </div>
 )
 
