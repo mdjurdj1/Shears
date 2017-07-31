@@ -32,6 +32,28 @@ div.desc {
     font-weight: bold;
 }
 
+/*MODAL STYLING===========================================================================*/
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+/* Remove scroll on the body when react-modal is open */
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+.modal_after-open {
+  margin: auto;
+  vertical-align: middle;
+}
+img.modal_image{
+  width: 50%;
+  margin: 0 auto !important;
+}
+#modal_button {
+  float: right;
+}
+/*MEDIA QUERIES========================================================================*/
 
 @media screen and (max-width: 980px){
   div#gallery_wrapper {
