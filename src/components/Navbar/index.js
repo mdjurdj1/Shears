@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Icon from 'semantic-ui-react'
 import './navbar.css'
 
 const Navbar = () => (

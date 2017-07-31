@@ -1,5 +1,5 @@
 div#gallery_wrapper {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-bottom: 5em;
   border-bottom: 1px solid silver;
@@ -7,52 +7,45 @@ div#gallery_wrapper {
   font-family: 'Lato', sans-serif;
 }
 
+/*GALLERY IMAGE STYLING==============================================================*/
+
 div.gallery {
-    margin: 5px;
-    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 2em 2em 0;
+    background-color: rgba(0, 0, 0, .80);
+    color: white;
     float: left;
-    width: 140px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
-div.gallery:hover {
-    border: 1px solid purple;
+div.gallery img {
+    opacity: 1;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+div.img_wrap {
+    background: #CFEDFA;
+    height: 200px;
+}
+
+div.img_wrap img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+div.gallery:hover img {
+	opacity: .5;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 700;
 }
 
-/*MODAL STYLING===========================================================================*/
-/* Add animation (Standard syntax) */
-@keyframes example {
-    from {top:-100px;opacity: 0;}
-    to {top:0px;opacity:1;}
-}
-/* Remove scroll on the body when react-modal is open */
-.ReactModal__Body--open {
-    overflow: hidden;
-}
-.modal_after-open {
-  margin: auto;
-  vertical-align: middle;
-}
-img.modal_image{
-  width: 50%;
-  margin: 0 auto !important;
-}
-#modal_button {
-  float: right;
-}
 /*MEDIA QUERIES========================================================================*/
 
 @media screen and (max-width: 980px){

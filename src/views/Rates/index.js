@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom'
-
-import HoursContainer from '../../components/HoursContainer'
-import StoreInfoContainer from '../../components/StoreInfoContainer'
 import './rates.css'
 
 class Rates extends Component {
@@ -50,7 +46,7 @@ class Rates extends Component {
          </div>
 
          <div className="col_2">
-            <img id="bridal_pic" src={require('../../images/long_pic.jpg')} alt="Bridal Picture" style={{width:260, height:720}} />
+            <img id="bridal_pic" src={require('../../images/long_pic.jpg')} alt="Bridal" style={{width:260, height:720}} />
           </div>
        </div>
     )}
