@@ -13,6 +13,7 @@ import img_8 from '../../images/img_8.jpg'
 import img_9 from '../../images/img_9.jpg'
 import img_10 from '../../images/img_10.jpg'
 import img_11 from '../../images/img_11.jpg'
+import img_12 from '../../images/img_12.jpg'
 import './gallery.css'
 
 const images = [
@@ -26,13 +27,20 @@ const images = [
     img_8,
     img_9,
     img_10,
-    img_11
+    img_11,
+    img_12
 ];
 
 class Gallery extends Component {
   state = {
     lightBoxOpen: false,
     photoIndex: 0,
+  }
+
+  componentDidMount() {
+    var images = document.getElementsByClassName('img_wrap')
+    console.log(images)
+    for(let i=0;i<images.length;i++) {images[i].style.backgroundColor = "#CFEDFA"}
   }
 
   openLightBox = (index) => {
@@ -63,85 +71,115 @@ class Gallery extends Component {
 
         <div className="col_4">
           <h1>Check out our gallery!</h1>
-          <p>Click any photo for a closer look! <br />Stylist responsible for each look is credited under the photo.</p><br />
+          <p>Click any photo for a closer look! <br />Stylists responsible for each look can be contacted via email or phone.</p><br />
 
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(0)} src={img_1} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Aida</div>
+          <div className="gallery_row">  {/*Begins Gallery Row 1 here*/}
+            <div className="desc">
+              <h1>Stylist: Aida</h1>
+              <hr />
+              <p>Email: AidaD_57@shearsNYC.com</p>
+              <p>Phone: (718) 515-8190</p>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(0)} src={img_1} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(1)} src={img_2} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(2)} src={img_3} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+          </div> {/*Ends Gallery Row 1 here*/}
+
+          <div className="gallery_row">  {/*Begins Gallery Row 2 here*/}
+            <div className="desc">
+              <h1>Stylist: Erin</h1>
+              <hr />
+              <p>Email: heyItsErin@shearsNYC.com</p>
+              <p>Phone: (917) 430-6190</p>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(3)} src={img_4} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(4)} src={img_5} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(5)} src={img_6} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+          </div> {/*Ends Gallery Row 2 here*/}
+
+          <div className="gallery_row"> {/*Begin gallery row 3 here */}
+            <div className="desc">
+              <h1>Stylist: Bryan</h1>
+              <hr />
+              <p>Email: Bryte1983@shearsNYC.com</p>
+              <p>Phone: (917) 915-2120</p>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(6)} src={img_7} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(7)} src={img_8} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(8)} src={img_9} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+          </div> {/*Ends Gallery Row 3 here*/}
+
+          <div className="gallery_row"> {/*Begins Gallery Row 1 here*/}
+            <div className="desc">
+              <h1>Stylist: Eva</h1>
+              <hr />
+              <p>Email: EvaScalla@shearsNYC.com</p>
+              <p>Phone: (718) 515-8190</p>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(9)} src={img_10} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(10)} src={img_11} alt="" style={{width:200, height:200}} /></div>
+              </div>
+            </div>
+
+            <div className="responsive">
+              <div className="gallery">
+                  <div className="img_wrap"><img onClick={() => this.openLightBox(11)} src={img_12} alt="" style={{width:200, height:200}} /></div>
+              </div>
             </div>
           </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(1)} src={img_2} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: George</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(2)} src={img_3} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Nathalie</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(3)} src={img_4} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: George</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(4)} src={img_5} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Alexis</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(5)} src={img_6} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Alexis</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(6)} src={img_7} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Alexis</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(7)} src={img_8} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Nathalie</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(8)} src={img_9} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Aida</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(9)} src={img_10} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Michael</div>
-            </div>
-          </div>
-
-          <div className="responsive">
-            <div className="gallery">
-                <div className="img_wrap"><img onClick={() => this.openLightBox(10)} src={img_11} alt="" style={{width:200, height:200}} /></div>
-              <div className="desc">Stylist: Eva</div>
-            </div>
-          </div>
-
       </div>
 
 
