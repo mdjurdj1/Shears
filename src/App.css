@@ -33,6 +33,10 @@ span.pink {
   color: pink;
 }
 
+span.purple {
+  color: #9932CC;
+}
+
 /*MAKE APPT BUTTON=================================================================*/
 
 button#make_appt {

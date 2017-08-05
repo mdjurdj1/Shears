@@ -39,8 +39,9 @@ class Gallery extends Component {
 
   componentDidMount() {
     var images = document.getElementsByClassName('img_wrap')
-    console.log(images)
-    for(let i=0;i<images.length;i++) {images[i].style.backgroundColor = "#CFEDFA"}
+    setTimeout(() => {
+      for(let i=0;i<images.length;i++) {images[i].style.backgroundColor = "#CFEDFA"}
+    }, 400)
   }
 
   openLightBox = (index) => {
@@ -77,8 +78,8 @@ class Gallery extends Component {
             <div className="desc">
               <h1>Stylist: Aida</h1>
               <hr />
-              <p>Email: AidaD_57@shearsNYC.com</p>
-              <p>Phone: (718) 515-8190</p>
+              <p><span className="purple">Email</span>: AidaD_57@shearsNYC.com</p>
+              <p><span className="purple">Phone</span>:<br /> (718) 515-8190</p>
             </div>
 
             <div className="responsive">
@@ -104,8 +105,8 @@ class Gallery extends Component {
             <div className="desc">
               <h1>Stylist: Erin</h1>
               <hr />
-              <p>Email: heyItsErin@shearsNYC.com</p>
-              <p>Phone: (917) 430-6190</p>
+              <p><span className="purple">Email</span>: heyItsErin@shearsNYC.com</p>
+              <p><span className="purple">Phone</span>:<br/> (917) 430-6190</p>
             </div>
 
             <div className="responsive">
@@ -131,8 +132,8 @@ class Gallery extends Component {
             <div className="desc">
               <h1>Stylist: Bryan</h1>
               <hr />
-              <p>Email: Bryte1983@shearsNYC.com</p>
-              <p>Phone: (917) 915-2120</p>
+              <p><span className="purple">Email</span>: Bryte1983@shearsNYC.com</p>
+              <p><span className="purple">Phone</span>:<br/> (917) 915-2120</p>
             </div>
 
             <div className="responsive">
@@ -154,12 +155,12 @@ class Gallery extends Component {
             </div>
           </div> {/*Ends Gallery Row 3 here*/}
 
-          <div className="gallery_row"> {/*Begins Gallery Row 1 here*/}
+          <div className="gallery_row"> {/*Begins Gallery Row 4 here*/}
             <div className="desc">
-              <h1>Stylist: Eva</h1>
+              <h1>Stylist:<br/> Eva</h1>
               <hr />
-              <p>Email: EvaScalla@shearsNYC.com</p>
-              <p>Phone: (718) 515-8190</p>
+              <p><span className="purple">Email</span>: EvaScalla@shearsNYC.com</p>
+              <p><span className="purple">Phone</span>:<br/> (718) 515-8190</p>
             </div>
 
             <div className="responsive">
@@ -179,7 +180,8 @@ class Gallery extends Component {
                   <div className="img_wrap"><img onClick={() => this.openLightBox(11)} src={img_12} alt="" style={{width:200, height:200}} /></div>
               </div>
             </div>
-          </div>
+          </div>  {/*Ends Gallery Row 4 here*/}
+
       </div>
 
 
