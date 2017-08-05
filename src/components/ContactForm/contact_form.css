@@ -5,6 +5,14 @@ div#contact_form {
   width: 50%;
 }
 
+/*CONTACT FORM AND INPUT FIELDS===================================================*/
+
+div#contact_form h1{
+  width: 28%;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid black;
+}
+
 div#contact_form input, textarea {
   display: block;
 }
@@ -41,4 +49,18 @@ input#send {
 
 input#send:hover {
   border: 1px solid black;
+}
+
+/*MEDIA QUERIES===================================================================*/
+
+@media screen and (max-width: 1600px) {
+  div#contact_form {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div#contact_form {
+    width: 100%;
+  }
 }
