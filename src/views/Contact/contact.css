@@ -6,12 +6,16 @@ div#contact_wrapper {
   border-bottom: 1px solid silver;
   overflow: hidden;
   font-family: 'Lato', sans-serif;
-  display: flex;
 }
 
 div#contact_container {
   text-align: left;
   margin-right: 5em;
+}
+
+div#contacts_and_gmap_container {
+    display: flex;
+    border-bottom: 1px solid black;
 }
 
 div#google_map_container {
@@ -35,6 +39,11 @@ span.contact_heading {
     margin: 0;
     display: inline-block;
   }
+  div#contacts_and_gmap_container{
+    width: 100%;
+    margin-left: 0;
+    display: inline-block;
+  }
   div#contact_container {
     text-align: left;
     margin-right: 0;
@@ -45,6 +54,6 @@ span.contact_heading {
     height: 300px;
     width: 100%;
     max-width: 600px;
-    margin: 2em auto;
+    margin: 2em 0em 2em 0em;
   }
 }

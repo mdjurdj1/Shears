@@ -15,6 +15,7 @@ div.gallery_row {
   margin-bottom: 2em;
   border-bottom: 1px solid black;
 }
+
 div.gallery {
     cursor: pointer;
     margin: 0 2em 2em 0;
@@ -43,6 +44,10 @@ div.img_wrap img {
 
 div.gallery:hover img {
 	opacity: .5;
+}
+
+div.desc h1 {
+  margin-bottom: 0;
 }
 
 div.desc {

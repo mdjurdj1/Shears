@@ -1,0 +1,44 @@
+div#contact_form {
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  width: 50%;
+}
+
+div#contact_form input, textarea {
+  display: block;
+}
+
+.input_field {
+  line-height: 30px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 0 2px 5px;
+  color: purple;
+  letter-spacing: 1px;
+}
+
+.textarea_field {
+  line-height: 30px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 0 2px 5px;
+  color: purple;
+  letter-spacing: 1px;
+}
+
+input#send {
+  cursor: pointer;
+  background-color: #9932CC;
+  border: 1px solid white;
+  color: white;
+  padding: 0.8em 2em 0.8em 2em;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+input#send:hover {
+  border: 1px solid black;
+}
