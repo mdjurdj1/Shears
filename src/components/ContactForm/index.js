@@ -5,7 +5,7 @@ const ContactForm = () => (
   <div id="contact_form">
   <h1>Contact</h1>
     <p className="gmap_address">397 3rd Ave - Between 28th and 29th st. <br/> New York, NY 10016</p>
-    <form action="https://formspree.io/shearsNYC@email.com"
+    <form action="https://formspree.io/shearsNYC@gmail.com"
         method="POST">
       <span>Your Name(required)</span>
       <input className="input_field" type="text" name="name" size={40} placeholder="Name"/><br />

@@ -20,7 +20,7 @@ class Contact extends Component {
           <div id="google_map_container">
            <GettingStartedGoogleMap
              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.28"
-             containerElement={ <div style={{ height: `100%`, width: `800px` }} /> }
+             containerElement={ <div style={{ height: `100%`}} /> }
              mapElement={<div id="g_map" style={{ height: `100%`, width: `600px` }} />}
               markers={this.state.markers}
            />

@@ -22,7 +22,7 @@ const App = () => (
             <h2>Salon & Designs</h2>
             <hr />
             <a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=45115&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=7%2f28%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1">
-            <button id="make_appt"><i className="fa fa-scissors" aria-hidden="true"/>&nbsp; Make an online appointment</button></a>
+            <button id="make_appt"><i className="fa fa-scissors" aria-hidden="true"/>&nbsp; Book an online appointment</button></a>
           </div>
 
           <Navbar />
