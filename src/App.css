@@ -63,7 +63,7 @@ button#make_appt:hover {
 
 div#content_wrapper {
   width: 100%;
-  opacity: 0.90;
+  opacity: 0.94;
   background-color: white; /* #EFBBCC; */
   padding: 1em 0 1em 0;
   flex: 1 0 auto;
