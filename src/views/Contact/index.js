@@ -42,11 +42,11 @@ class Contact extends Component {
              <p className="contact_heading">GENERAL INQUIRIES: </p>
              <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/>  shearsNYC@gmail.com</p>
              <p className="contact_heading">JOIN THE TEAM: </p>
-             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsNYCartists@gmail.com</p>
+             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsHire@gmail.com</p>
              <p className="contact_heading">BUSINESS PARTNERSHIP:</p>
-             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsNYCbusiness@gmail.com</p>
+             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsBiz@gmail.com</p>
              <p className="contact_heading">GIFTCARDS PURCHASE: </p>
-             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsNYCgiftcards@gmail.com</p>
+             <p className="contact_email"><i className="fa fa-envelope-o" aria-hidden="true"/> shearsCard@gmail.com</p>
           </div>
 
           <div className="section_two">

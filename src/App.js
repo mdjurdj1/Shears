@@ -12,6 +12,7 @@ import Products from './views/Products'
 import Contact from './views/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Sidebar from './components/SocialSidebar'
 import './App.css';
 
 const App = () => (
@@ -25,6 +26,7 @@ const App = () => (
             <button id="make_appt"><i className="fa fa-scissors" aria-hidden="true"/>&nbsp; Book an online appointment</button></a>
           </div>
 
+          <Sidebar />
           <Navbar />
           <div id="content_wrapper">
             <Switch>
