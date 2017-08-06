@@ -21,7 +21,7 @@ class Contact extends Component {
            <GettingStartedGoogleMap
              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.28"
              containerElement={ <div style={{ height: `100%`, width: `800px` }} /> }
-             mapElement={<div style={{ height: `100%`, width: `800px` }} />}
+             mapElement={<div id="g_map" style={{ height: `100%`, width: `600px` }} />}
               markers={this.state.markers}
            />
          </div>

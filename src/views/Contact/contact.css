@@ -128,4 +128,7 @@ p#privacy {
     max-width: 600px;
     margin: 1em auto;
   }
+  div#g_map {
+    width: 400px!important;
+  }
 }
