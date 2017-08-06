@@ -41,7 +41,7 @@ class Gallery extends Component {
     var images = document.getElementsByClassName('img_wrap')
     setTimeout(() => {
       for(let i=0;i<images.length;i++) {images[i].style.backgroundColor = "#CFEDFA"}
-    }, 400)
+    }, 500)
   }
 
   openLightBox = (index) => {
